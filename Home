@@ -135,10 +135,10 @@ public class Home extends JFrame {
 		JMenuItem mntmNewMenuItem_Aboutus = new JMenuItem("About Us");
 		mntmNewMenuItem_Aboutus.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-		      CompanyBackground CB = new CompanyBackground();
-		      CB.setModalExclusionType(null);
-              CB.setVisible(true);
-              dispose();
+		      AdminCompanyBackground AB = new AdminCompanyBackground();
+		      AB.setModalExclusionType(null);
+                      AB.setVisible(true);
+                      dispose();
 			}
 		});
 		mnNewMenu_Home.add(mntmNewMenuItem_Aboutus);
